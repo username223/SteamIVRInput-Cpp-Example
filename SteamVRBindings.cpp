@@ -142,30 +142,7 @@ void SteamIVRInput::Loop()
 
 int main()
 {
-    //const auto manifestPath = "Z:\\Programming\\Cpp\\2019-01-15_SteamVR_Bindings\\SteamVRBindings\\x64\\Debug\\manifest.vrmanifest";
 
-    //vr::VRApplications()->RemoveApplicationManifest(manifestPath);
-
-    ////Install manifest
-    //const auto app_error = vr::VRApplications()->AddApplicationManifest(manifestPath);
-    //if (app_error != vr::VRApplicationError_None)
-    //{
-    //    std::cout <<
-    //        std::string("Could not add application manifest: ")
-    //        + std::string(
-    //            vr::VRApplications()->GetApplicationsErrorNameFromEnum(
-    //                app_error));
-    //}
-    ////Set auto start
-    //const auto apps_error = vr::VRApplications()->SetApplicationAutoLaunch("test.MinimalBindings", false);
-    //if (apps_error != vr::VRApplicationError_None)
-    //{
-    //    std::cout <<
-    //        std::string("Could not set auto start: ")
-    //        + std::string(
-    //            vr::VRApplications()->GetApplicationsErrorNameFromEnum(
-    //                apps_error));
-    //}
 
     SteamIVRInput a;
 
