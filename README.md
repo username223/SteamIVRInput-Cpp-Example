@@ -76,7 +76,7 @@ Action Sets contain a series of actions. I haven't messed with them so I can't g
 
 * Localization
 
-Supposedly this replaces strings in the interface with user friendly strings. This doesn't happen to me for unknown reasons.
+The localization string must be `en_US` and NOT `en` as the official documentation says, otherwise the localization will not show up and you will not get any errors.
 
 The actions manifest that we'll use can be found [here](action_manifest.json)
 

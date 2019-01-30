@@ -20,7 +20,7 @@
   ],
   "localization" : [
    {
-       "language_tag": "en",
+       "language_tag": "en_US",
 
         "/actions/main" : "My Game Actions",
 
