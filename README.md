@@ -62,7 +62,7 @@ The actions manifest (`action_manifest.json` in the repo) contains the following
 
 * The default bindings.
 
-Whenever a user starts your program without having set any bindings, this is what they use. The defaults are specific to various controllers. In our case we're using `vive_controller` and pointing at the `legacy_actions.json` file. The `legacy_actions.json` file was created by me by entering the SteamVR bindings interface. The [current documentation](https://github.com/ValveSoftware/openvr/wiki/SteamVR-Input) explains this process. This application will not show up in the bindings interface because it's initialized as a `vr::VRApplication_Overlay`. Initialize as a `vr::VRApplication_Scene` to get it to show up.
+Whenever a user starts your program without having set any bindings, this is what they use. The defaults are specific to various controllers. In our case we're using `vive_controller` and pointing at the `legacy_actions.json` file. The `legacy_actions.json` file was created by me by entering the SteamVR bindings interface. The [current documentation](https://github.com/ValveSoftware/openvr/wiki/SteamVR-Input) explains this process.
 
 * Actions
 
@@ -165,12 +165,6 @@ https://github.com/ValveSoftware/openvr/wiki/SteamVR-Input
 https://github.com/ValveSoftware/openvr/wiki/Action-manifest
 
 https://github.com/ValveSoftware/openvr/wiki/API-Documentation
-
-https://github.com/ValveSoftware/openvr/issues/879
-
-https://github.com/ValveSoftware/openvr/issues/926
-
-https://github.com/ValveSoftware/openvr/issues/914
 
 The `C:\Program Files (x86)\Steam\logs\vrserver.txt` file.
 

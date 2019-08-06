@@ -17,22 +17,6 @@ In order to run, copy "action_manifest.json" and "legacy_actions.json" into the 
 
 When SteamVR has started, turn on your Vive controller. The console should be spammed with "Action Set Active!". Press the menu
 button once. The console will print "Next song set!" and exit. SteamVR will still be running.
-
-Notice that this program as of SteamVR 1.1.3b will not be visible in the Controller Bindings menu. To make it visible change 
-
-vr::VR_Init(&initError, vr::VRApplication_Overlay);
-
-to
-
-vr::VR_Init(&initError, vr::VRApplication_Scene);
-
-Overlays not showing up has been logged as a bug.
-
-See these links
-
-https://github.com/ValveSoftware/openvr/issues/914
-https://github.com/ValveSoftware/openvr/issues/879
-https://github.com/ValveSoftware/openvr/issues/926
 */
 
 
